@@ -7,18 +7,24 @@
 - AI output must label assumptions explicitly.
 - Assumptions affecting scope, policy, security, or measurable NFRs require student approval before entering the reviewed baseline.
 
+## Review Record
+
+- **Reviewed by:** Gerungan Dave Jordy
+- **Review date:** 22 June 2026
+- **Review outcome:** ASM-01, ASM-02, ASM-04, ASM-05, and ASM-06 are accepted as working assumptions. ASM-03 is revised to avoid overclaiming account-role behaviour. ASM-07 and ASM-08 are retained as approved working boundaries/rules.
+
 ## Current Assumptions
 
 | ID | Assumption | Reason | Risk if incorrect | Validation owner | Status |
 |---|---|---|---|---|---|
-| ASM-01 | University or academic management is a secondary stakeholder. | Academic reporting and policy normally have an institutional owner. | Missing or incorrect approval and reporting requirements. | Student / lecturer | Proposed |
-| ASM-02 | IT support or a system operator is a secondary stakeholder. | Security, availability, backup, and recovery require an operational owner. | NFRs may lack an accountable stakeholder. | Student / lecturer | Proposed |
-| ASM-03 | Each user operates under one or more controlled roles: lecturer, student, or administrator. | The case defines different capabilities for three actor types. | Access-control requirements may be modelled incorrectly. | Administrator | Proposed |
-| ASM-04 | Assignment and submission records require stable identifiers. | Traceability and reliable record management need unambiguous references. | Duplicate or incorrectly associated records. | Administrator / lecturer | Proposed |
-| ASM-05 | The system records timestamps for deadlines and submissions. | Deadline and submission-status monitoring depend on time data. | Late/on-time status cannot be determined consistently. | Lecturer / administrator | Proposed |
-| ASM-06 | Only authorised users may view or modify grades and submissions. | The case explicitly requires security and academic data integrity. | Privacy breach or unauthorised academic-record changes. | Administrator / management | Proposed |
-| ASM-07 | The initial project excludes chat, plagiarism detection, payment, attendance, and video conferencing. | None are stated in the case. | Needed capabilities could be omitted if stakeholders later request them. | Student / lecturer | Working scope boundary |
-| ASM-08 | The application will be described independently of a specific implementation technology during requirements engineering. | No architecture or platform is provided. | Premature design constraints could distort requirements. | Student | Approved working rule |
+| ASM-01 | University or academic management is a secondary stakeholder. | Academic management may need oversight or summary information about assignment activities, but is not expected to perform daily workflows such as creating assignments, submitting work, or grading submissions. | Missing or incorrect approval, oversight, and reporting requirements. | Student / lecturer | Accepted |
+| ASM-02 | IT support or a system operator is a secondary stakeholder. | Security, availability, backup, and recovery require an operational owner. | NFRs may lack an accountable stakeholder. | Student / lecturer | Accepted |
+| ASM-03 | The system distinguishes at least three user roles: lecturer, student, and administrator. It is not yet confirmed whether one account may hold more than one role. | The case defines different capabilities for three actor types, but does not confirm detailed account-role rules. | Access-control requirements may be modelled too narrowly or too broadly. | Administrator | Revised |
+| ASM-04 | Assignment and submission records require stable identifiers. | Traceability and reliable record management need unambiguous references. | Duplicate or incorrectly associated records. | Administrator / lecturer | Accepted |
+| ASM-05 | The system records timestamps for deadlines and submissions. | Deadline and submission-status monitoring depend on time data. | Late/on-time status cannot be determined consistently. | Lecturer / administrator | Accepted |
+| ASM-06 | Only authorised users may view or modify grades and submissions. | The case explicitly requires security and academic data integrity. | Privacy breach or unauthorised academic-record changes. | Administrator / management | Accepted |
+| ASM-07 | The initial project excludes chat, plagiarism detection, payment, attendance, and video conferencing. | None are stated in the case. | Needed capabilities could be omitted if stakeholders later request them. | Student / lecturer | Accepted working scope boundary |
+| ASM-08 | The application will be described independently of a specific implementation technology during requirements engineering. | No architecture or platform is provided. | Premature design constraints could distort requirements. | Student | Accepted working rule |
 
 ## Unresolved Policy Decisions
 

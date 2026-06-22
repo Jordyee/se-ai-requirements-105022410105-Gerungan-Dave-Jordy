@@ -4,7 +4,7 @@
 
 - **Name:** Gerungan Dave Jordy
 - **Student ID:** 105022410105
-- **Class:** `TBD — complete before submission`
+- **Class:** Summer Class 2026
 - **Course:** Software Engineering
 - **Lecturer:** Andrew Tanny Liem
 

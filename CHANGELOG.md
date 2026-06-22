@@ -16,10 +16,11 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 ### Changed
 
 - Replaced pre-skill placeholder content with traceable case preparation documents.
+- Completed README class information.
+- Reviewed and accepted initial assumptions ASM-01, ASM-02, ASM-04, ASM-05, ASM-06, ASM-07, and ASM-08.
+- Revised ASM-03 to separate confirmed role types from unconfirmed account-role behaviour.
 
 ### Pending
 
-- Student confirmation of class information.
-- Student review of proposed assumptions and inferred secondary stakeholders.
 - Design and execution of Skill 01 through Skill 05.
 - Testing and revision of at least two reusable skills.
