@@ -27,3 +27,29 @@ This file records student review decisions and corrections made after raw AI out
 No factual correction was required. The reviewed output improves presentation and clarity while preserving the raw output's evidence boundaries.
 
 The reviewed baseline intentionally does not decide late submission, resubmission, file-size limits, grade publication, notifications, authentication, reporting access, data retention, integrations, or measurable NFR targets. These remain open for later elicitation or explicit student approval.
+
+## Review 02: Skill 02 Elicitation
+
+| Field | Value |
+|---|---|
+| Raw output reviewed | `outputs/raw/02-elicitation.md` |
+| Reviewed output produced | `outputs/reviewed/02-elicitation.md` |
+| Reviewer | Gerungan Dave Jordy |
+| Review date | 23 June 2026 |
+| Review decision | Accepted with minor clarification and status updates |
+
+### Findings
+
+| ID | Finding | Action taken |
+|---|---|---|
+| REV-02-01 | The raw output stayed within elicitation planning and evidence capture. | Preserved the boundary and did not add final requirements. |
+| REV-02-02 | The raw output kept assumptions, simulated evidence, partial answers, and unanswered items distinguishable. | Preserved `ASM-*`, `INT-*`, `OQ-*`, and `OQ-DRAFT-*` labels in the reviewed output. |
+| REV-02-03 | The question guide covered confirmed stakeholders and labelled secondary stakeholders as assumptions. | Kept lecturer, student, administrator, academic management, and IT support coverage with evidence labels. |
+| REV-02-04 | No unsupported policy decision was found in the raw output. | Kept late submission, resubmission, file limits, grade publication, notifications, authentication, reporting, retention, integrations, and measurable NFR targets open. |
+| REV-02-05 | Some wording needed to better reflect reviewed status. | Updated review status, readiness criteria, and student decisions needed before Skill 03. |
+
+### Corrections and Rationale
+
+No factual correction was required. The reviewed output improves presentation and explicitly marks student review status while preserving the raw output's elicitation boundaries.
+
+The reviewed Skill 02 baseline intentionally does not approve new simulated answers or final requirements. It keeps unresolved policy and quality-target decisions open before Skill 03.

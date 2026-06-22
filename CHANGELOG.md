@@ -15,6 +15,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Skill 01 Project Inception and Stakeholder Discovery workflow and examples.
 - Raw and reviewed Skill 01 inception outputs.
 - Skill 02 Elicitation workflow and examples.
+- Raw and reviewed Skill 02 elicitation outputs.
 
 ### Changed
 
@@ -24,9 +25,9 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Revised ASM-03 to separate confirmed role types from unconfirmed account-role behaviour.
 - Recorded student review of Skill 01 raw AI output.
 - Updated README progress status after Skill 01 execution and review.
+- Recorded student review of Skill 02 raw AI output.
 
 ### Pending
 
-- Execution and review of Skill 02.
 - Design and execution of Skill 03 through Skill 05.
 - Testing and revision of at least two reusable skills.
