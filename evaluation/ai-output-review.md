@@ -53,3 +53,38 @@ The reviewed baseline intentionally does not decide late submission, resubmissio
 No factual correction was required. The reviewed output improves presentation and explicitly marks student review status while preserving the raw output's elicitation boundaries.
 
 The reviewed Skill 02 baseline intentionally does not approve new simulated answers or final requirements. It keeps unresolved policy and quality-target decisions open before Skill 03.
+
+## Review 03: Skill 03 Specification
+
+| Field | Value |
+|---|---|
+| Raw output reviewed | `outputs/raw/03-requirements.md` |
+| Reviewed output produced | `outputs/reviewed/03-requirements.md` |
+| Reviewer | Gerungan Dave Jordy |
+| Review date | 23 June 2026 |
+| Review decision | Accepted with structural revisions for clarity and evidence discipline |
+
+### Findings
+
+| ID | Finding | Action taken |
+|---|---|---|
+| REV-03-01 | The raw output stayed within requirements specification and did not create user stories, use cases, prioritisation, validation results, or change requests. | Preserved the Skill 03 boundary in the reviewed output. |
+| REV-03-02 | Some `OQ-*` and `ELQ-*` references appeared in evidence positions, even though open questions and elicitation questions are not evidence that a requirement is valid. | Separated supporting evidence from open issues and related questions in the reviewed output. |
+| REV-03-03 | Non-functional requirement statements used "shall consider", which is too weak to be a fully testable NFR. | Reframed them as quality concerns and partial NFR candidates until measurable targets are approved. |
+| REV-03-04 | The traceability requirement was placed among functional product requirements, even though it is an assignment artefact constraint rather than a Student Task Management System user feature. | Moved traceability into specification constraints and artefact requirements. |
+| REV-03-05 | Requirement statuses such as `Supported` could be read as stronger than intended for high-level requirements with missing policy details. | Clarified status values as `Supported at high level` or `Partial`, with unresolved details kept deferred. |
+
+### Corrections and Rationale
+
+No factual correction was required. The raw Skill 03 output correctly avoided unsupported decisions for late submission, resubmission, file limits, grade publication, notifications, authentication, reporting, retention, integrations, and measurable NFR targets.
+
+The reviewed output revises structure and wording because a requirements specification must distinguish between:
+
+- evidence that supports a requirement;
+- open questions that block details;
+- elicitation questions that show what still needs to be asked;
+- assumptions that may inform later work but are not confirmed facts.
+
+This matters because mixing open questions into evidence columns can make an unresolved issue look like proof. Likewise, weak NFR wording such as "shall consider performance" is useful as a quality concern, but it is not yet a measurable, testable requirement. Keeping those items partial protects traceability and makes clear what the student still needs to approve.
+
+The reviewed Skill 03 baseline remains intentionally high-level. It does not approve new simulated policies, measurable targets, integrations, user stories, use cases, priorities, validation results, or change requests.
