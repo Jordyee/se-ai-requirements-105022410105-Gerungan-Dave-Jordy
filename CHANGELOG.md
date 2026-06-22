@@ -22,6 +22,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Reviewed and accepted initial assumptions ASM-01, ASM-02, ASM-04, ASM-05, ASM-06, ASM-07, and ASM-08.
 - Revised ASM-03 to separate confirmed role types from unconfirmed account-role behaviour.
 - Recorded student review of Skill 01 raw AI output.
+- Updated README progress status after Skill 01 execution and review.
 
 ### Pending
 

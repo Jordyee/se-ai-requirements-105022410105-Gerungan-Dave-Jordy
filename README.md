@@ -24,7 +24,7 @@ This repository demonstrates a traceable requirements-engineering workflow suppo
 
 ## Current Status
 
-The repository structure and pre-skill context documents are prepared. The five skills and their outputs are placeholders until each workflow stage is deliberately implemented and executed.
+The repository structure and pre-skill context documents are prepared. Skill 01 has been designed, executed, reviewed, and recorded in the evidence trail. Skills 02 through 05 remain pending until each workflow stage is deliberately implemented and executed.
 
 ## Case and Inputs
 
@@ -54,7 +54,7 @@ The repository structure and pre-skill context documents are prepared. The five 
 - [Requirements Traceability](outputs/reviewed/requirements-traceability.md)
 - [Use Case Diagram](diagrams/use-case-diagram.png)
 
-> The output links currently point to placeholders and will be completed only after the corresponding skill is executed and reviewed.
+> Skill 01 has a reviewed output. The remaining output links point to placeholders and will be completed only after the corresponding skill is executed and reviewed.
 
 ## Evaluation Evidence
 
@@ -68,7 +68,8 @@ The repository structure and pre-skill context documents are prepared. The five 
 - **AI tool used for repository preparation:** OpenAI Codex
 - **Model:** GPT-5
 - **Preparation date:** 22 June 2026
-- **Skills tested:** None yet
+- **Skills executed on the main case:** Skill 01
+- **Cross-case skill tests:** None yet
 - **Current human-review note:** The student must review and approve simulated inputs, assumptions, measurable targets, raw outputs, and all final requirements.
 
 ## Evidence Policy
