@@ -12,6 +12,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Clearly labelled simulated interview record.
 - Assumption register with identifiers, risks, owners, and validation status.
 - README navigation and evidence-handling policy.
+- Skill 01 Project Inception and Stakeholder Discovery workflow and examples.
 
 ### Changed
 
@@ -22,5 +23,5 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 
 ### Pending
 
-- Design and execution of Skill 01 through Skill 05.
+- Execution of Skill 01 and design/execution of Skill 02 through Skill 05.
 - Testing and revision of at least two reusable skills.

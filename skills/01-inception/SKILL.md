@@ -1,5 +1,5 @@
 ---
-name: inception
+name: 01-inception
 description: Use this skill for Project Inception and Stakeholder Discovery in the Student Task Management System requirements-engineering assignment. It helps an AI agent analyse the case baseline, identify evidence-backed stakeholders, separate facts from assumptions, define the initial problem, objectives, scope, constraints, risks, and open questions, and prepare raw inception output for later student review without moving into elicitation, specification, prioritisation, validation, or change management.
 ---
 
@@ -97,7 +97,6 @@ Never present assumptions, inferred stakeholders, potential tensions, or unanswe
 9. Produce the inception output.
    - If asked to execute the skill, write the first AI version to `outputs/raw/01-inception.md`.
    - Do not write to `outputs/reviewed/01-inception.md` unless the student explicitly asks for reviewed output after reviewing the raw version.
-   - In this repository setup task, only edit this skill file and `examples.md`.
 
 ## Output Structure
 
