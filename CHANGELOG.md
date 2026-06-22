@@ -13,6 +13,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Assumption register with identifiers, risks, owners, and validation status.
 - README navigation and evidence-handling policy.
 - Skill 01 Project Inception and Stakeholder Discovery workflow and examples.
+- Raw and reviewed Skill 01 inception outputs.
 
 ### Changed
 
@@ -20,8 +21,9 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Completed README class information.
 - Reviewed and accepted initial assumptions ASM-01, ASM-02, ASM-04, ASM-05, ASM-06, ASM-07, and ASM-08.
 - Revised ASM-03 to separate confirmed role types from unconfirmed account-role behaviour.
+- Recorded student review of Skill 01 raw AI output.
 
 ### Pending
 
-- Execution of Skill 01 and design/execution of Skill 02 through Skill 05.
+- Design and execution of Skill 02 through Skill 05.
 - Testing and revision of at least two reusable skills.
