@@ -14,6 +14,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - README navigation and evidence-handling policy.
 - Skill 01 Project Inception and Stakeholder Discovery workflow and examples.
 - Raw and reviewed Skill 01 inception outputs.
+- Skill 02 Elicitation workflow and examples.
 
 ### Changed
 
@@ -26,5 +27,6 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 
 ### Pending
 
-- Design and execution of Skill 02 through Skill 05.
+- Execution and review of Skill 02.
+- Design and execution of Skill 03 through Skill 05.
 - Testing and revision of at least two reusable skills.
