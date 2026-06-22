@@ -16,6 +16,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Raw and reviewed Skill 01 inception outputs.
 - Skill 02 Elicitation workflow and examples.
 - Raw and reviewed Skill 02 elicitation outputs.
+- Skill 03 Specification workflow and evidence-safe examples.
 
 ### Changed
 
