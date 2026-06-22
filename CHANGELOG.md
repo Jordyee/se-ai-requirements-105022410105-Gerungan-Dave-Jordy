@@ -17,6 +17,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Skill 02 Elicitation workflow and examples.
 - Raw and reviewed Skill 02 elicitation outputs.
 - Skill 03 Specification workflow and evidence-safe examples.
+- Raw Skill 03 requirements specification output.
 
 ### Changed
 
@@ -27,6 +28,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Recorded student review of Skill 01 raw AI output.
 - Updated README progress status after Skill 01 execution and review.
 - Recorded student review of Skill 02 raw AI output.
+- Updated README progress status after Skill 03 raw output.
 
 ### Pending
 
