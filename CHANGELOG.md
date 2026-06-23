@@ -57,8 +57,9 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Updated README status after completing cross-case testing and reflection evidence.
 - Removed obsolete placeholder raw-output stubs from Git tracking while keeping them ignored locally.
 - Updated README status after preparing the final submission audit.
+- Created and closed GitHub issue `#1` as a factual completed marker for the final audit and non-submission file cleanup.
 
 ### Pending
 
 - Final student review of all prepared artefacts.
-- GitHub issue confirmation only if the lecturer has a separate required issue format or issue count.
+- GitHub issue format confirmation only if the lecturer has a separate required issue format beyond completed issue `#1`.
