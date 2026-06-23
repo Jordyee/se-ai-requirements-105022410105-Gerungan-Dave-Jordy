@@ -24,7 +24,7 @@ This repository demonstrates a traceable requirements-engineering workflow suppo
 
 ## Current Status
 
-The repository structure and pre-skill context documents are prepared. Skill 01, Skill 02, and Skill 03 have been designed, executed, reviewed, and recorded in the evidence trail. Skills 04 and 05 remain pending until each workflow stage is deliberately implemented and executed.
+The repository structure and pre-skill context documents are prepared. Skill 01, Skill 02, and Skill 03 have been designed, executed, reviewed, and recorded in the evidence trail. Skill 04 has been designed and executed as raw AI output, but it still requires student review before reviewed user-story and prioritisation outputs are produced. Skill 05 remains pending.
 
 ## Case and Inputs
 
@@ -68,7 +68,7 @@ The repository structure and pre-skill context documents are prepared. Skill 01,
 - **AI tool used for repository preparation:** OpenAI Codex
 - **Model:** GPT-5
 - **Preparation date:** 22 June 2026
-- **Skills executed on the main case:** Skill 01, Skill 02, Skill 03
+- **Skills executed on the main case:** Skill 01, Skill 02, Skill 03, Skill 04 raw output
 - **Cross-case skill tests:** None yet
 - **Current human-review note:** The student must review and approve simulated inputs, assumptions, measurable targets, raw outputs, and all final requirements.
 
