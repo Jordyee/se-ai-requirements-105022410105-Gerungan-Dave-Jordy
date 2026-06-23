@@ -24,7 +24,7 @@ This repository demonstrates a traceable requirements-engineering workflow suppo
 
 ## Current Status
 
-The repository structure and pre-skill context documents are prepared. Skill 01, Skill 02, Skill 03, and Skill 04 have been designed, executed, reviewed, and recorded in the evidence trail. Skill 05 remains pending.
+The repository structure and pre-skill context documents are prepared. Skill 01, Skill 02, Skill 03, and Skill 04 have been designed, executed, reviewed, and recorded in the evidence trail. Skill 05 has been designed and raw Skill 05 outputs have been generated for student review.
 
 ## Case and Inputs
 
@@ -54,7 +54,7 @@ The repository structure and pre-skill context documents are prepared. Skill 01,
 - [Requirements Traceability](outputs/reviewed/requirements-traceability.md)
 - [Use Case Diagram](diagrams/use-case-diagram.png)
 
-> Skill 01 through Skill 04 have reviewed outputs. The remaining reviewed output links point to placeholders and will be completed only after the corresponding skill is executed and reviewed.
+> Skill 01 through Skill 04 have reviewed outputs. Skill 05 raw outputs have been generated and still require student review before reviewed Skill 05 artefacts are completed. The remaining reviewed output links point to placeholders and will be completed only after the corresponding skill is reviewed.
 
 ## Evaluation Evidence
 
@@ -68,9 +68,9 @@ The repository structure and pre-skill context documents are prepared. Skill 01,
 - **AI tool used for repository preparation:** OpenAI Codex
 - **Model:** GPT-5
 - **Preparation date:** 22 June 2026
-- **Skills executed on the main case:** Skill 01, Skill 02, Skill 03, Skill 04
+- **Skills executed on the main case:** Skill 01, Skill 02, Skill 03, Skill 04, Skill 05 raw execution
 - **Cross-case skill tests:** None yet
-- **Current human-review note:** The student must review and approve simulated inputs, assumptions, measurable targets, raw outputs, and all final requirements.
+- **Current human-review note:** The student must review Skill 05 raw outputs before any reviewed use-case, validation, change request, final traceability, or diagram artefact is completed.
 
 ## Evidence Policy
 
