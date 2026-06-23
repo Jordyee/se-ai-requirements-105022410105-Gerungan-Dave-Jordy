@@ -88,3 +88,31 @@ The reviewed output revises structure and wording because a requirements specifi
 This matters because mixing open questions into evidence columns can make an unresolved issue look like proof. Likewise, weak NFR wording such as "shall consider performance" is useful as a quality concern, but it is not yet a measurable, testable requirement. Keeping those items partial protects traceability and makes clear what the student still needs to approve.
 
 The reviewed Skill 03 baseline remains intentionally high-level. It does not approve new simulated policies, measurable targets, integrations, user stories, use cases, priorities, validation results, or change requests.
+
+## Review 04: Skill 04 User Stories and Prioritisation
+
+| Field | Value |
+|---|---|
+| Raw output reviewed | `outputs/raw/04-user-stories.md`; `outputs/raw/05-prioritization.md` |
+| Reviewed output produced | `outputs/reviewed/04-user-stories.md`; `outputs/reviewed/05-prioritization.md` |
+| Reviewer | Gerungan Dave Jordy |
+| Review date | 23 June 2026 |
+| Review decision | Accepted with simplification and structure revisions |
+
+### Findings
+
+| ID | Finding | Action taken |
+|---|---|---|
+| REV-04-01 | The raw output stayed within Skill 04 and did not create use cases, validation results, implementation tasks, or change requests. | Preserved the boundary in the reviewed outputs. |
+| REV-04-02 | The raw user-story output included NFR-derived and artefact-constraint items as story candidates, which made the story list heavier than needed. | Kept product user stories limited to functional requirements and moved NFRs/constraints into supporting consideration sections. |
+| REV-04-03 | The raw outputs correctly preserved deferred topics and open questions, but repeated some details across several tables. | Condensed repeated deferred-topic material while preserving IDs and traceability. |
+| REV-04-04 | Raw prioritisation correctly warned that MoSCoW labels do not approve unresolved policy details. | Preserved that warning and made the distinction between priority and readiness more explicit. |
+| REV-04-05 | No unsupported policy decision was found in the raw outputs. | Kept late submission, resubmission, file limits, grade publication, notifications, authentication, reporting detail, retention, integrations, and measurable NFR targets open. |
+
+### Corrections and Rationale
+
+No factual correction was required. The reviewed outputs improve readability and reduce duplication while preserving the raw output's evidence discipline.
+
+The reviewed user-story output keeps product-facing stories focused on `FR-01` through `FR-11`. NFR and artefact-constraint items remain important, but they are better handled as quality and assignment considerations because they are not product user actions and several are still partial or assumption-labelled.
+
+The reviewed prioritisation output preserves MoSCoW labels, value, and readiness risk. It does not treat deferred topics as approved requirements. High-priority items with unresolved details remain explicitly risky rather than fully ready.

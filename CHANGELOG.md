@@ -21,6 +21,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Reviewed Skill 03 requirements specification output.
 - Skill 04 user story derivation and prioritisation workflow and examples.
 - Raw Skill 04 user story and prioritisation outputs.
+- Reviewed Skill 04 user story and prioritisation outputs.
 
 ### Changed
 
@@ -35,8 +36,10 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Recorded student review of Skill 03 raw AI output and clarified evidence discipline in reviewed requirements.
 - Updated README progress status after Skill 03 review.
 - Updated README progress status after Skill 04 raw output.
+- Recorded student review of Skill 04 raw AI output and simplified reviewed user-story and prioritisation artefacts.
+- Updated README progress status after Skill 04 review.
 
 ### Pending
 
-- Review of Skill 04 raw output, plus design and execution of Skill 05.
+- Design and execution of Skill 05.
 - Testing and revision of at least two reusable skills.
