@@ -25,6 +25,8 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Skill 05 validation and change management workflow and examples.
 - Raw Skill 05 use-case, validation, and change request outputs.
 - Reviewed Skill 05 use-case, validation, and change request outputs.
+- Final reviewed requirements traceability matrix.
+- Final reviewed use-case diagram source and PNG.
 
 ### Changed
 
@@ -44,9 +46,8 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Updated README progress status after Skill 05 raw output.
 - Recorded student review of Skill 05 raw AI output and simplified reviewed use-case, validation, and change request artefacts.
 - Updated README progress status after Skill 05 review.
+- Updated README status after preparing final traceability and use-case diagram artefacts.
 
 ### Pending
 
-- Final traceability matrix.
-- Final use-case diagram.
 - Testing and revision of at least two reusable skills.

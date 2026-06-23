@@ -24,7 +24,7 @@ This repository demonstrates a traceable requirements-engineering workflow suppo
 
 ## Current Status
 
-The repository structure and pre-skill context documents are prepared. Skill 01 through Skill 05 have been designed, executed, reviewed, and recorded in the evidence trail.
+The repository structure and pre-skill context documents are prepared. Skill 01 through Skill 05 have been designed, executed, reviewed, and recorded in the evidence trail. Final traceability and use-case diagram artefacts have been prepared from the reviewed baseline.
 
 ## Case and Inputs
 
@@ -54,7 +54,7 @@ The repository structure and pre-skill context documents are prepared. Skill 01 
 - [Requirements Traceability](outputs/reviewed/requirements-traceability.md)
 - [Use Case Diagram](diagrams/use-case-diagram.png)
 
-> Skill 01 through Skill 05 have reviewed outputs. Final traceability and final diagram artefacts still require later completion.
+> Skill 01 through Skill 05 have reviewed outputs. Final traceability and final diagram artefacts are prepared from reviewed outputs only and still require student review before submission.
 
 ## Evaluation Evidence
 
@@ -70,7 +70,7 @@ The repository structure and pre-skill context documents are prepared. Skill 01 
 - **Preparation date:** 22 June 2026
 - **Skills executed on the main case:** Skill 01, Skill 02, Skill 03, Skill 04, Skill 05
 - **Cross-case skill tests:** None yet
-- **Current human-review note:** Final traceability and final use-case diagram still require student review before submission.
+- **Current human-review note:** Final traceability and final use-case diagram are prepared and still require student review before submission.
 
 ## Evidence Policy
 
