@@ -19,6 +19,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Skill 03 Specification workflow and evidence-safe examples.
 - Raw Skill 03 requirements specification output.
 - Reviewed Skill 03 requirements specification output.
+- Skill 04 user story derivation and prioritisation workflow and examples.
 
 ### Changed
 
@@ -35,5 +36,5 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 
 ### Pending
 
-- Design and execution of Skill 03 through Skill 05.
+- Execution and review of Skill 04, plus design and execution of Skill 05.
 - Testing and revision of at least two reusable skills.
