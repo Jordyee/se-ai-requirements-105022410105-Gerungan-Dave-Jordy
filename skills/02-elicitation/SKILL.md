@@ -1,6 +1,6 @@
 ---
 name: 02-elicitation
-description: Use this skill for Elicitation in the Student Task Management System requirements-engineering assignment. It helps an AI agent plan stakeholder elicitation, prepare interview and clarification questions, capture evidence safely, classify answers as answered, partially answered, unanswered, or assumption-based, and prepare traceable material for later specification without writing final requirements, user stories, use cases, prioritisation, validation results, or change requests.
+description: Use this skill for Elicitation in the main Student Task Management System requirements-engineering assignment or for controlled cross-case skill testing. It helps an AI agent plan stakeholder elicitation, prepare interview and clarification questions, capture evidence safely, classify answers as answered, partially answered, unanswered, or assumption-based, and prepare traceable material for later specification without writing final requirements, user stories, use cases, prioritisation, validation results, or change requests.
 ---
 
 # Skill 02: Elicitation
@@ -22,7 +22,7 @@ This skill does not produce final requirements. It prepares traceable elicitatio
 
 ## Required Inputs
 
-Read these files before producing any elicitation output:
+For the main Student Task Management System assignment, read these files before producing any elicitation output:
 
 - `README.md`
 - `CASE.md`
@@ -32,6 +32,8 @@ Read these files before producing any elicitation output:
 - `inputs/assumptions.md`
 - `outputs/reviewed/01-inception.md`
 - `evaluation/ai-output-review.md`
+
+For cross-case skill testing, read the supplied test case fixture and its cross-case Skill 01 or inception baseline instead. The fixture must provide enough source mapping to distinguish case facts, simulated notes, assumptions, and open questions. If the fixture does not provide a reviewed-style inception baseline, create or request that baseline before using Skill 02.
 
 Use source labels exactly:
 
@@ -71,6 +73,7 @@ Never turn an unanswered question, a partial answer, or an assumption into a req
    - Confirm that `outputs/reviewed/01-inception.md` exists.
    - Use the reviewed Skill 01 baseline as the starting point for stakeholder coverage, open questions, risks, and student decisions.
    - Preserve the reviewed decision that `OQ-DRAFT-01`, `OQ-DRAFT-02`, and `OQ-DRAFT-03` remain open for elicitation.
+   - For cross-case testing, confirm that the fixture has a cross-case inception output or equivalent baseline, and keep the output clearly labelled as test evidence.
 
 3. Build an elicitation coverage map.
    - Map each stakeholder to topics that need clarification.
@@ -103,6 +106,7 @@ Never turn an unanswered question, a partial answer, or an assumption into a req
    - If asked to execute the skill, write the first AI version to `outputs/raw/02-elicitation.md`.
    - The raw output should be an elicitation plan and evidence-capture draft, not a final requirements document.
    - Do not edit a raw output after it has been created as first AI evidence; corrections belong in `evaluation/ai-output-review.md`.
+   - If running a cross-case skill test, write the test evidence under `evaluation/` or another explicitly requested test path, not under the main case `outputs/raw/` or `outputs/reviewed/` folders.
 
 ## Output Structure
 
@@ -131,6 +135,7 @@ Each section must cite source IDs, question IDs, or clearly state that the item 
 Before finishing, verify:
 
 - The output is based on the reviewed Skill 01 baseline, not only the original case.
+- Cross-case test outputs cite the test fixture and state that they are not part of the main reviewed baseline.
 - Confirmed case facts cite `SRC-01` or `CASE-CONFIRMED` `INT-*` entries.
 - Simulated evidence remains labelled as simulation.
 - Every assumption reference keeps its `ASM-*` ID.

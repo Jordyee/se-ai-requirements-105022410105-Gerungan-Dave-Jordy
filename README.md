@@ -24,7 +24,7 @@ This repository demonstrates a traceable requirements-engineering workflow suppo
 
 ## Current Status
 
-The repository structure and pre-skill context documents are prepared. Skill 01 through Skill 05 have been designed, executed, reviewed, and recorded in the evidence trail. Final traceability and use-case diagram artefacts have been prepared from the reviewed baseline.
+The repository structure and pre-skill context documents are prepared. Skill 01 through Skill 05 have been designed, executed, reviewed, and recorded in the evidence trail. Final traceability and use-case diagram artefacts have been prepared from the reviewed baseline. Skill 01 and Skill 02 have been tested and revised using a different case.
 
 ## Case and Inputs
 
@@ -69,8 +69,8 @@ The repository structure and pre-skill context documents are prepared. Skill 01 
 - **Model:** GPT-5
 - **Preparation date:** 22 June 2026
 - **Skills executed on the main case:** Skill 01, Skill 02, Skill 03, Skill 04, Skill 05
-- **Cross-case skill tests:** None yet
-- **Current human-review note:** Final traceability and final use-case diagram are prepared and still require student review before submission.
+- **Cross-case skill tests:** Skill 01 and Skill 02 tested using the Library Book Borrowing System fixture.
+- **Current human-review note:** Final traceability, final use-case diagram, cross-case skill tests, and reflection are prepared and still require student review before submission.
 
 ## Evidence Policy
 

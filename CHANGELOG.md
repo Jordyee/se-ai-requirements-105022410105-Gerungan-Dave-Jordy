@@ -27,6 +27,9 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Reviewed Skill 05 use-case, validation, and change request outputs.
 - Final reviewed requirements traceability matrix.
 - Final reviewed use-case diagram source and PNG.
+- Cross-case Library Book Borrowing System test fixture.
+- Cross-case Skill 01 and Skill 02 test outputs.
+- Completed skill test results and reflection evidence.
 
 ### Changed
 
@@ -47,7 +50,11 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Recorded student review of Skill 05 raw AI output and simplified reviewed use-case, validation, and change request artefacts.
 - Updated README progress status after Skill 05 review.
 - Updated README status after preparing final traceability and use-case diagram artefacts.
+- Revised Skill 01 to explicitly support controlled cross-case testing and safe evaluation output paths.
+- Revised Skill 02 to explicitly support controlled cross-case testing and cross-case inception prerequisites.
+- Updated README status after completing cross-case testing and reflection evidence.
 
 ### Pending
 
-- Testing and revision of at least two reusable skills.
+- Final student review of all prepared artefacts.
+- Link verification, GitHub issue publication if required, and repository visibility check before submission.

@@ -1,6 +1,6 @@
 ---
 name: 01-inception
-description: Use this skill for Project Inception and Stakeholder Discovery in the Student Task Management System requirements-engineering assignment. It helps an AI agent analyse the case baseline, identify evidence-backed stakeholders, separate facts from assumptions, define the initial problem, objectives, scope, constraints, risks, and open questions, and prepare raw inception output for later student review without moving into elicitation, specification, prioritisation, validation, or change management.
+description: Use this skill for Project Inception and Stakeholder Discovery in the main Student Task Management System requirements-engineering assignment or for controlled cross-case skill testing. It helps an AI agent analyse a case baseline, identify evidence-backed stakeholders, separate facts from assumptions, define the initial problem, objectives, scope, constraints, risks, and open questions, and prepare raw inception output for later student review without moving into elicitation, specification, prioritisation, validation, or change management.
 ---
 
 # Skill 01: Project Inception and Stakeholder Discovery
@@ -21,7 +21,7 @@ This skill does not produce final requirements. It prepares an inception draft t
 
 ## Required Inputs
 
-Read these files before producing any inception output:
+For the main Student Task Management System assignment, read these files before producing any inception output:
 
 - `README.md`
 - `CASE.md`
@@ -29,6 +29,16 @@ Read these files before producing any inception output:
 - `inputs/stakeholder-notes.md`
 - `inputs/interview-answers.md`
 - `inputs/assumptions.md`
+
+For cross-case skill testing, read the supplied test case fixture instead. The fixture must provide:
+
+- a case brief;
+- stakeholder notes or equivalent source register;
+- simulated interview notes, if any;
+- assumptions, if any;
+- open questions or unresolved decision areas.
+
+When using a cross-case fixture, map the fixture's case brief to `SRC-01`, simulated interview notes to `SRC-02`, and assumption register to `SRC-03` unless the fixture defines a clearer mapping. Keep fixture-specific IDs, such as `LIB-INT-*` or `LIB-ASM-*`, instead of renaming them to the main case IDs.
 
 Use source labels exactly:
 
@@ -97,6 +107,7 @@ Never present assumptions, inferred stakeholders, potential tensions, or unanswe
 9. Produce the inception output.
    - If asked to execute the skill, write the first AI version to `outputs/raw/01-inception.md`.
    - Do not write to `outputs/reviewed/01-inception.md` unless the student explicitly asks for reviewed output after reviewing the raw version.
+   - If running a cross-case skill test, write the test evidence under `evaluation/` or another explicitly requested test path, not under the main case `outputs/raw/` or `outputs/reviewed/` folders.
 
 ## Output Structure
 
@@ -125,6 +136,7 @@ Each section must cite source IDs or clearly state that the item is unresolved.
 Before finishing, verify:
 
 - Confirmed case facts cite `SRC-01` or a `CASE-CONFIRMED` `INT-*` entry.
+- Cross-case test outputs state their fixture source and make clear that they are test evidence, not part of the main reviewed baseline.
 - Simulated answers remain labelled as simulation.
 - Every assumption reference keeps its `ASM-*` ID.
 - Inferred stakeholders are labelled as assumptions.
