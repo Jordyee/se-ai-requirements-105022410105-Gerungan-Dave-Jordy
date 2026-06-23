@@ -22,6 +22,7 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Skill 04 user story derivation and prioritisation workflow and examples.
 - Raw Skill 04 user story and prioritisation outputs.
 - Reviewed Skill 04 user story and prioritisation outputs.
+- Skill 05 validation and change management workflow and examples.
 
 ### Changed
 
