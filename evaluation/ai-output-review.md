@@ -116,3 +116,29 @@ No factual correction was required. The reviewed outputs improve readability and
 The reviewed user-story output keeps product-facing stories focused on `FR-01` through `FR-11`. NFR and artefact-constraint items remain important, but they are better handled as quality and assignment considerations because they are not product user actions and several are still partial or assumption-labelled.
 
 The reviewed prioritisation output preserves MoSCoW labels, value, and readiness risk. It does not treat deferred topics as approved requirements. High-priority items with unresolved details remain explicitly risky rather than fully ready.
+
+## Review 05: Skill 05 Use Cases, Validation, and Change Requests
+
+| Field | Value |
+|---|---|
+| Raw output reviewed | `outputs/raw/06-use-case.md`; `outputs/raw/07-validation.md`; `outputs/raw/08-change-request.md` |
+| Reviewed output produced | `outputs/reviewed/06-use-case.md`; `outputs/reviewed/07-validation.md`; `outputs/reviewed/08-change-request.md` |
+| Reviewer | Gerungan Dave Jordy |
+| Review date | 23 June 2026 |
+| Review decision | Accepted with simplification and consolidation |
+
+### Findings
+
+| ID | Finding | Action taken |
+|---|---|---|
+| REV-05-01 | The raw outputs stayed within Skill 05 and did not create final traceability, final diagrams, implementation tasks, or unsupported requirements. | Preserved the boundary in reviewed outputs. |
+| REV-05-02 | The raw use-case output was correct but repeated blocker details in several sections. | Simplified the use-case table and consolidated shared open boundaries. |
+| REV-05-03 | The raw validation output was accurate but long because it validated almost every item separately. | Grouped validation findings by capability area while preserving key IDs. |
+| REV-05-04 | The raw change request output listed ten candidates with overlapping decision areas. | Consolidated them into six broader change request groups. |
+| REV-05-05 | No unsupported policy decision was found in the raw outputs. | Kept late submission, resubmission, file limits, grade publication, notifications, authentication, reporting detail, retention, integrations, and measurable NFR targets open. |
+
+### Corrections and Rationale
+
+No factual correction was required. The reviewed outputs improve readability and make the raw-vs-reviewed comparison clearer.
+
+The reviewed use-case output keeps only high-level scenarios because detailed flows would require unresolved policies. The reviewed validation output confirms that traceability and priority-risk alignment are sound, while many items remain partial or not testable yet. The reviewed change request output groups related proposed changes into decision areas so the student can decide what to approve, defer, or reject later.
