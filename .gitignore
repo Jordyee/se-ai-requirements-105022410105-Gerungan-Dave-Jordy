@@ -1,0 +1,14 @@
+# Local agent memory and assistant working notes
+AGENT_MEMORY*.md
+*_MEMORY*.md
+
+# Obsolete placeholder raw-output stubs kept locally only.
+# Numbered raw outputs under outputs/raw/01-*.md through 08-*.md remain tracked evidence.
+outputs/raw/*-ai-output.md
+
+# Local tool and OS noise
+.codex/
+.agents/
+Thumbs.db
+Desktop.ini
+.DS_Store

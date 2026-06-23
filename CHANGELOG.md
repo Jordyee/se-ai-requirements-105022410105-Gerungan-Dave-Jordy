@@ -30,6 +30,8 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Cross-case Library Book Borrowing System test fixture.
 - Cross-case Skill 01 and Skill 02 test outputs.
 - Completed skill test results and reflection evidence.
+- Final submission audit.
+- `.gitignore` for local memory files, obsolete placeholder raw-output stubs, and local tool or OS noise.
 
 ### Changed
 
@@ -53,8 +55,10 @@ All material changes to skills, inputs, and reviewed requirements artefacts are 
 - Revised Skill 01 to explicitly support controlled cross-case testing and safe evaluation output paths.
 - Revised Skill 02 to explicitly support controlled cross-case testing and cross-case inception prerequisites.
 - Updated README status after completing cross-case testing and reflection evidence.
+- Removed obsolete placeholder raw-output stubs from Git tracking while keeping them ignored locally.
+- Updated README status after preparing the final submission audit.
 
 ### Pending
 
 - Final student review of all prepared artefacts.
-- Link verification, GitHub issue publication if required, and repository visibility check before submission.
+- GitHub issue confirmation only if the lecturer has a separate required issue format or issue count.
